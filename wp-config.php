@@ -18,7 +18,8 @@
 /** The name of the database for WordPress */
  //Added by WP-Cache Manager
 //define('DB_NAME', 'harr_v2_db');
-define('DB_NAME', 'harrington_db');
+
+define('DB_NAME', 'harrington_db_v3');
 
 /** MySQL database username */
 //define('DB_USER', 'harr_db');
