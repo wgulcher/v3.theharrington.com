@@ -15,21 +15,21 @@ local.properties
 .classpath
 .settings/
 .loadpath
-v4/wp-admin/
-v4/wp-includes/
+v3/wp-admin/
+v3/wp-includes/
 
-v4/wp-content/_notes/
-v4/wp-content/aam/
-v4/wp-content/cache/
-v4/wp-content/ewww/
-v4/wp-content/upgrade/
-v4/wp-content/uploads_original/
-v4/wp-content/w3tc-config/
-v4/wp-content/themes/geobubble_v1/
-v4/wp-content/themes/geobubble_v2/
-v4/wp-content/themes/geobubble_v3/
-v4/wp-content/themes/screencoms/
-v4/wp-content/themes/strappress/
+v3/wp-content/_notes/
+v3/wp-content/aam/
+v3/wp-content/cache/
+v3/wp-content/ewww/
+v3/wp-content/upgrade/
+v3/wp-content/uploads_original/
+v3/wp-content/w3tc-config/
+v3/wp-content/themes/geobubble_v1/
+v3/wp-content/themes/geobubble_v2/
+v3/wp-content/themes/geobubble_v3/
+v3/wp-content/themes/screencoms/
+v3/wp-content/themes/strappress/
 
 
 
