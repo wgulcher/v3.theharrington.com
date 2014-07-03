@@ -1,0 +1,98 @@
+.wp-caption{}
+.wp-caption-text{}
+
+.galleryItem-restricted-height-on .gallery-item img{width:auto; max-height:100%}
+
+.galleryItem-restricted-height-on  .gallery-icon {text-align: center}
+
+
+
+.gallery{text-align:center; margin-top:20px;}
+
+.gallery-item{margin:0; margin-bottom: 20px; overflow: hidden; }
+
+.gallery-icon{text-align: left;}
+.gallery-item img{/*max-height: 100%; */width: 100%;}
+
+.gallery-caption{
+margin-left:0;
+padding: 5px;
+/*height: 20px;*/
+}
+
+#galleryItem-group{margin-right:0px !important; text-align:left;}
+
+.galleryItem-restricted-height-on #galleryItem-group{ text-align: center; height:60px;}
+
+.gallery .hentry{background: none !important;}
+
+
+
+
+.gallery-item:firstchild{margin-left:0 ;}
+
+/* hide x2 buttons as on galleries you cant use normal sizes just 100% or user defined */
+
+
+/*
+.single .layout-btn-large,
+.single .layout-btn-medium,
+.single .layout-btn-small,
+.single .layout-btn-thumbnail,
+.single .toggle-image-fit,
+.single .set-interaction-type,
+.single .toggle-image-only,
+.single .toggle-shape{
+ 	display: none !important;
+ }
+
+*/
+
+
+.nav-primary .nav-items > li > a {
+border: solid transparent;
+border-width: 0 1px;
+padding: 0 20px;
+}
+
+.nav-items li a {
+text-decoration: none;
+}
+
+/* galleries */
+
+.gallery {
+	/*margin-left: -10px !important;
+	margin-right: -10px !important;*/
+	
+}
+.single .gallery .gallery-item{
+	margin-left:0px !important; margin-right:20px !important;
+}
+
+
+.gallery-columns-1 .gallery-item:nth-of-type(1n+1){
+	margin-right:0px !important;
+}
+
+.gallery-columns-2 .gallery-item:nth-of-type(2n+2){
+	margin-right:0px !important;
+}
+
+.gallery-columns-3 .gallery-item:nth-of-type(3n+3){
+	margin-right:0px !important;
+}
+
+.gallery-columns-4 .gallery-item:nth-of-type(4n+4){
+	margin-right:0px !important;
+}
+
+
+.gallery-columns-5 .gallery-item:nth-of-type(5n+5){
+	margin-right:0px !important;
+}
+
+
+.gallery-columns-6 .gallery-item:nth-of-type(6n+6){
+	margin-right:0px !important;
+}

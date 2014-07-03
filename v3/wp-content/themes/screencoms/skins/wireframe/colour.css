@@ -1,0 +1,7 @@
+/* COLOUR FILE :: wireframe */
+
+.navbar-inner,
+select,textarea,input[type="text"],input,
+.input-prepend .add-on, .input-append .add-on,
+.uneditable-input,select, .btn, button,
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled]{ background:inherit;}

@@ -1,0 +1,258 @@
+/* ALL REVEAL INSTANCES ------------------------------------------------- */
+
+.page-template-reveal-php .hentry-text-wrap{
+margin-top:30px !important;
+margin-bottom:30px !important;
+margin-bottom: 2.127659574468085% !important;
+}
+
+
+.reveal .hentry-text-wrap{
+text-align:left;
+margin-left: 4	0px !important;
+}
+
+.reveal .article .entry-header{height: auto;}
+
+.page-template-page_reveal-php .reveal{
+margin-top:0px;
+}
+
+.page-template-page_reveal-php .reveal .slides{
+top:0px;
+}
+
+body.page-template-page_reveal-php{
+overflow-y: visible;
+}
+
+.menu-gallery{
+	display: none;
+}
+
+
+.page-template-page_reveal-php .reveal .slides>section {
+top:0px;
+}
+
+.page-template-page_reveal-php .span7, .page-template-page_reveal-php .span5{
+width:100% !important;
+}
+
+.reveal .hentry{
+overflow:hidden;
+}
+
+
+.reveal img{ vertical-align:middle !important;}
+
+.reveal img{ border:0px !important;}
+
+
+.reveal section img{margin:0 !important;}
+
+.reveal img, .reveal video, .reveal iframe {
+max-width: 100% !important;
+max-height: none !important;
+height:auto;
+}
+
+.reveal .slides>section, .reveal .slides>section>section {padding:0px !important;}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+font-size: 2.2rem;
+}
+
+.reveal h3, .reveal h4 {
+font-size: 1.8rem;
+}
+
+.reveal p {
+font-size: 1.3rem;
+}
+
+.reveal p, .reveal b{
+
+}
+
+.reveal a{
+font-size: 1rem;
+}
+
+.reveal .hentry, .reveal .hentry:hover{
+
+	/*background-color: #ff6600;*/
+}
+
+.page-template-reveal-php .btn-group {margin-right:5px; margin-left:5px;}
+
+.page-template-reveal-php .btn-group .btn {
+width: 30px;
+height: 40px;
+margin-top: 5px;
+margin-bottom: 5px;
+line-height:40px;
+color: #000;
+font-family: "Lato", sans-serif;
+font-size: 10px;
+}
+
+
+
+.reveal .post-thumb-wrap, .reveal #flashDiv{
+width:300px;
+height:300px;
+}
+
+.reveal .hentry .hentry-text{display:none}
+
+.reveal .navbar-fixed-top, .navbar-fixed-bottom{
+position: static !important;
+}
+
+
+.reveal .span5{margin-left:0px;}
+
+
+
+
+
+/* TODO :: ADD CLASS SO IF SIDEBARR OR NOT */
+
+
+@media (min-width: 2240px) {
+	.page-template-page_reveal-php .reveal, .page-template-page_reveal-php .reveal .hentry{
+		height:460px;
+	}
+	.page-template-page_reveal-php .layout-size--medium .hentry-text-wrap{
+		height:460px;
+	}
+}
+
+@media (min-width: 1920px) and (max-width: 2239px) {
+	.page-template-page_reveal-php .reveal, .page-template-page_reveal-php .reveal .hentry{
+		height:380px;
+	}
+	.page-template-page_reveal-php .layout-size--medium .hentry-text-wrap{
+		height:360px;
+	}
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+	.page-template-page_reveal-php .reveal, .page-template-page_reveal-php .reveal .hentry{
+		height:300px;
+	}
+	.page-template-page_reveal-php .layout-size--medium .hentry-text-wrap{
+		height:280px;
+	}
+}
+
+@media (min-width: 1280px) and (max-width: 1599px) {
+	.page-template-page_reveal-php .reveal, .page-template-page_reveal-php .reveal .hentry{
+		height:220px;
+	}
+	.page-template-page_reveal-php .layout-size--medium .hentry-text-wrap{
+		height:200px;
+	}
+}
+
+@media (min-width: 960px) and (max-width: 1279px) {
+	.page-template-page_reveal-php .reveal, .page-template-page_reveal-php .reveal .hentry{
+		height:140px;
+	}
+	.page-template-page_reveal-php .layout-size--medium .hentry-text-wrap{
+		height:120px;
+	}
+}
+
+@media (min-width: 620px) and (max-width: 959px) {
+	.page-template-page_reveal-php .reveal, .page-template-page_reveal-php .reveal .hentry{
+		height:140px;
+	}
+	.page-template-page_reveal-php .layout-size--medium .hentry-text-wrap{
+		height:120px;
+	}
+	
+	.reveal .attachment-text-wrap{float: left;}
+}
+
+@media (min-width: 1px) and (max-width: 619px) {
+
+.reveal .attachment-text-wrap{float: left;}
+	.page-template-page_reveal-php .reveal, .page-template-page_reveal-php .reveal .hentry{
+		height:60px
+	}
+	.page-template-page_reveal-php .layout-size--medium .hentry-text-wrap{
+		height:40px;
+	}
+	.page-template-page_reveal-php .span7, .page-template-page_reveal-php .span5{
+		width:100% !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1px) and (max-width: 479px) {
+
+	/* this media query is just for buttons */
+	
+	.reveal .btn-group {
+		margin-right:3px; margin-left:3px;
+	}
+	
+	.reveal #buttonTransition-group .btn {
+		width: 14px;
+		height: 40px;
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+	
+	.reveal #buttonTheme-group .btn {
+		width: 27px;
+		height: 40px;
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+
+}
+
+
+
+
+
+.page-template-page_reveal-php .reveal-feed{
+overflow:hidden;
+/*background-color: #ff6600;*/
+}
+
+/* the below allows no cropping on reveal - great forcubes in posts etc */
+/*.page-template-page_reveal-php .hentry{ overflow: visible !important; }*/
+
+
+/* shows full height of reveal - not width - on just cubes */
+.page-template-page_reveal-php .reveal, .page-template-page_reveal-php .cube .hentry{overflow: visible !important; }
+
+
+.reveal .hentry-text-wrap{margin-top:10px !important;}
+
+.reveal h2 {
+font-size: 25px !important;
+line-height: 30px !important;
+font-weight: bold !important;
+}
+.reveal h4{font-size: 17.5px  !important; font-weight: bold !important;
+line-height: 20px !important;}
+.reveal .hentry-text-wrap{width:inherit !important; }

@@ -1,0 +1,290 @@
+/w.fx-type--height-default{min-height: 60px;}
+
+.wrapper-main {
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.header {
+
+}
+
+
+#logo{
+/*	margin-top: 5px;
+	
+	margin-bottom: 15px;*/
+	min-height: 60px;
+	height:60px;
+	/*max-width:460px;*/
+	min-width: 300px;
+}
+.header #logo img{
+	/*margin-left:5px;*/
+	margin-right:5px;
+	max-height: 70px;
+}
+
+.nav-primary{
+/*margin-left:20px;
+display:inline-block;*/
+}
+
+
+.navbar .btn-navbar{
+margin:0;,
+.single 
+
+padding:4px;
+}
+
+.navbar .nav{
+/*
+height:60px;
+*/
+}
+
+
+.navbar-inner{
+/*
+height:60px;
+max-height:60px;
+*/
+}
+
+
+
+
+.main-content-wrap{
+	margin-left:0px;
+	margin-top:10px;
+}
+
+#main-navigation{ margin-bottom:-10px;}
+
+
+.page{margin-left:0px;}
+
+
+.page .main-content-wrap,
+.error404 .main-content-wrap,
+.single .main-content-wrap
+{
+	margin-left:-20px;
+	margin-right:-20px;
+}
+
+.filter-menu-view-wrap, .filter-menu-query-wrap{
+/*display:inline-block;
+margin-bottom:-5px;
+margin-right:-20px;*/
+}
+
+/* shared ---------------------------------------------------------------------------------------- */
+
+.post-feed {
+	position: relative;
+	padding-bottom: 5px;
+
+
+	/* keep commented out as wireframes look shit otherwise */
+	/*overflow: hidden;*/
+}
+
+
+.hentry {
+	display: block;
+	float: left;
+	overflow: hidden;
+	/*margin-top: 5px;*/
+	margin-bottom: 20px;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;	
+}
+
+.post-feed-image-shape-circle .hentry{
+	border-radius:50%;
+}
+
+
+.hentry .hentry-wrap {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.hentry .content-profile {
+	display: none;
+	position: absolute;
+	top: auto;
+	left: 0;
+	margin: 20px;
+}
+
+.hentry .post-thumb-wrap{
+	float: left;
+}
+
+.post-thumb-wrap,
+.post-thumb-wrap-expanded{	 
+	background-repeat:no-repeat;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	text-align:center;
+}
+.image-fit-contain .post-thumb-wrap,
+.image-fit-contain  .post-thumb-wrap-expanded{
+	background-size:100% !important; /* css fallback - fits widths*/
+	-webkit-background-size: contain !important; 
+	   -moz-background-size: contain !important; 
+		 -o-background-size: contain !important; 
+			background-size: contain !important; 
+}
+
+.image-fit-cover .post-thumb-wrap,
+.image-fit-cover  .post-thumb-wrap-expanded{
+	background-size:100% !important; /* css fallback - fits widths*/
+	-webkit-background-size: cover !important; 
+	   -moz-background-size: cover !important; 
+		 -o-background-size: cover !important; 
+			background-size: cover !important; 
+}
+
+/* attachments ---------------------------------------------------------------------------------------------- */
+
+.entry-attachment{/*text-align:center;*/}
+
+
+
+
+
+/* Expanding Posts ----------------------------------------------------------------------------------------------------------------- */
+
+.article-popup-container {
+	opacity: 1;
+	display: none;
+	position: absolute;
+	top: 0;
+	/*overflow: hidden;*/
+	left: 0;
+	z-index: 999;
+	margin-left: 20px;
+}
+
+.view-mode--hovered .article-popup-container .hentry {
+	margin: 0;
+}
+
+.article-popup-spacer {
+	display: none;
+	width: 940px;
+	height: 500px;	/* height of article + margin */margin-bottom: 20px;
+}
+
+.article-popup-spacer-large {
+}
+
+.article-popup-spacer-small {
+}
+
+/* large ----------------------------------------------------------------------------------------------------------------------------- */
+.layout-size--large .post-feed-image-shape-rectangle .hentry{
+	margin-bottom: 20px;
+}
+
+.layout-size--large .post-thumb-wrap,
+.layout-size--large #flashDiv {
+	width: 300px;
+	height:300px;
+}
+
+.layout-size--large .hentry .image-shape-rectangle .post-thumb-wrap{
+	height: 220px;
+}
+
+/* medium ----------------------------------------------------------------------------------------------------------------------------- */
+
+.layout-size--medium .post-feed-image-shape-rectangle .hentry{
+	margin-bottom: 20px;
+}
+
+
+.layout-size--medium .post-thumb-wrap,
+.layout-size--medium #flashDiv {
+	width: 140px;
+	height:140px;
+}
+
+.layout-size--medium .hentry .image-shape-rectangle .post-thumb-wrap{
+	height: 105px;
+}
+
+/* small ----------------------------------------------------------------------------------------------------------------------------- */
+
+.layout-size--small .hentry{
+	/*margin-bottom: 15px;*/
+}
+
+.layout-size--small .post-thumb-wrap,
+.layout-size--small #flashDiv {
+	width: 60px;
+	height:60px;
+}
+
+.layout-size--small .hentry .image-shape-rectangle .post-thumb-wrap{
+	width: 140px;
+	height: 70px;
+}
+
+/* thumbnail --------------------------------------------------------------------------------------------------------------------------- */
+
+
+.layout-size--thumbnail .main-content-wrap {
+	margin-top: 0px !important;
+}
+
+.layout-size--thumbnail .hentry .hentry-text-wrap{margin-top: 1px}
+
+.layout-size--thumbnail .hentry .excerpt{display: none;}
+
+
+
+
+
+.layout-size--thumbnail .post-feed {
+	/*padding-top:10px;*/
+}
+	
+.layout-size--thumbnail .hentry{
+	/*margin-top:0px;
+	margin-bottom:14px;*/
+}
+
+.layout-size--thumbnail .post-thumb-wrap,
+.layout-size--thumbnail #flashDiv {
+	width: 35px;
+	height:35px;
+}
+
+.layout-size--thumbnail .hentry .image-shape-rectangle .post-thumb-wrap{
+	height: 35px; 
+	width:60px;
+}
+
+
+
+
+
+
+/* pages etc ------------------------------------------------------------------------------------------------------------------------------- */
+
+.article-text-wrap{/*margin-left:10px;
+margin-right: 10px;*/}
+
+
+.hero-media-holder{overflow: hidden;}

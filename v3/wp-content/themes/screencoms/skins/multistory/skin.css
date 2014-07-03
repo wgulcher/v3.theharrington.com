@@ -1,0 +1,297 @@
+
+.menu-menu{ display:none !important;}
+
+
+.post-feed .hentry:hover, .menu-item:hover, .page_item:hover, .btn:hover, button:hover {
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+
+#LiveCategoryFilter,#LiveAuthorFilter{ visibility:hidden;}
+
+
+
+
+/*
+.post-feed .hentry:hover{
+ border-top: 5px solid #49abe1;
+ margin-top: 0px;
+}
+
+.gallery-item img:hover{
+border-top: 5px solid #49abe1;
+ margin-top: -5px;
+}
+*/
+
+.hentry, .gallery-item,
+.post-feed .hentry:hover, .menu-item:hover, .page_item:hover, .btn:hover, button:hover,
+.hentry:hover, .gallery-item:hover {
+	background-color: #fff;
+}
+
+.galleryItem-restricted-height-on .gallery-icon {
+height: 110px;
+}
+
+.meta-info{ display:none !important;}
+
+.layout-size--medium .hentry-layout-visual{
+	height:151px !important; 
+}
+
+.single .layout-size--medium .hentry-layout-visual,
+.attachment .layout-size--medium .hentry-layout-visual{
+	height:100% !important;
+}
+
+.layout-size--medium .hentry-layout-visual .hentry-wrap{
+	overflow:visible;
+}
+
+.layout-size--medium .hentry-layout-visual .hentry-text {
+	height: 0px;
+	display: block;
+}
+
+.post-feed .hentry .excerpt{
+visibility: hidden !important;
+}
+
+.layout-size--medium .hentry .entry-title,
+.gallery-item .gallery-caption{
+	font-weight:normal  !important;
+	font-size: 0.7rem  !important;
+	line-height: 0.9rem  !important;
+	font-weight:bold  !important;
+	text-align:center  !important;
+}
+
+.single .layout-size--medium .hentry .entry-title,
+.single .layout-size--medium .hentry .excerpt,
+.attachment .layout-size--medium .hentry .entry-title,
+.attachment .layout-size--medium .hentry .excerpt{
+	font-size: 1rem;
+	line-height: 1rem;
+}
+
+.layout-size--medium .post-thumb-wrap{
+height: 90px;
+}
+
+.gallery-item img{
+	max-height: 110px;
+}
+
+.post-feed .hentry .entry-title,
+.post-feed .hentry .excerpt,
+.gallery-item .gallery-caption,
+.entry-meta a,
+.attachment a{
+ color: #1981a4 !important;
+ /* border-bottom: 2px solid white;  */
+}
+
+.post-feed .hentry:hover .entry-title,
+.post-feed .hentry:hover .excerpt,
+.gallery-item:hover .gallery-caption,
+.entry-meta a:hover,
+.attachment a:hover{
+ color: #666666 !important;
+ /*border-bottom: 2px solid #49abe1;*/
+}
+
+.menu-item, .page_item, .btn{
+	font-size: 11px;
+	line-height: 27px;
+}
+
+h3{font-size:0.8rem; font-weight: normal; font-family: Regular,"Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+
+.attachment-text-wrap h2,
+ .hentry .article-content .entry-title,
+.attachment .hentry .entry-title{ text-align:left !important; font-size:1.3rem !important;  line-height:2rem !important;}
+
+
+p,a,small,li,h1,h1 a,h2,h3,h4,h5,h6{
+	
+}
+
+
+#nav-single{width:180px;}
+
+.add-on{ visibility:hidden;}
+
+#orderby, .tag-cloud-wrap{ visibility:hidden;}
+
+
+.layout-size--medium .post-feed .hentry .entry-title{
+	font-family: Regular,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* niki additions -------------------------------------------------------- */
+/* hover links rewritten------------------------------------------------------------------*/
+.widget ul li a:hover {
+text-decoration: none;
+}
+#navigation ul.nav li ul {
+text-decoration: none;
+border-bottom: 2px solid white;
+}
+a {
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+ 
+#logo a {
+    text-decoration: none;
+    border-bottom: 0px;
+}
+a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #49abe1;
+}
+
+.back-button a:hover,
+.nav-next a:hover,
+.nav-previous a:hover{
+    text-decoration: none;
+    border-bottom: 0px;
+}
+
+a:hover img {
+    text-decoration: none;
+    border-bottom: 0px;
+}
+ 
+#navigation ul.nav > li a:hover, #navigation ul.nav > li:hover, #navigation ul.nav li ul {
+text-decoration: none;
+}
+ul.nav li ul li a:hover {
+text-decoration: underline;
+border-bottom: 2px solid white;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+text-decoration: none;
+}
+.post-meta a:link, .post-meta a:visited, .post p.tags a:link, .post p.tags a:visited {
+text-decoration: none;
+}
+/* hover links rewritten------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/* marcus thumb title fix------------------------------------------------------------------*/
+.layout-size--medium .post-feed .hentry .entry-title {
+font-family: Regular,"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: normal!important;
+font-size: 13px!important;
+}
+.gallery-item .gallery-caption {
+font-weight: normal!important;
+font-size: 13px!important;
+}
+
+.single .hentry{width: 100%;}
+
+.gallery{text-align:center;}
+
+.gallery-item{margin:0; margin-bottom: 20px; }
+
+.gallery-icon{}
+.gallery-item img{max-height: 100%; /*width: 300px;*/}
+
+.gallery-caption{
+margin-left:0;
+padding: 5px;
+/*height: 20px;*/
+}
+
+.gallery .span2 {width: 23.4%;}
+.gallery .span3 {width: 23.8%;}
+.gallery .span4 {width: 32.26%;}
+.gallery .span6 {width: 49.2%;}
+
+.gallery-item:firstchild{margin-left:0 ;}
+
+/* hide x2 buttons as on galleries you cant use normal sizes just 100% or user defined */
+
+/*
+.single .layout-btn-large,
+.single .layout-btn-medium,
+.single .layout-btn-small,
+.single .layout-btn-thumbnail,
+.single .toggle-image-fit,
+.single .set-interaction-type,
+.single .toggle-image-only,
+.single .toggle-shape{
+ 	display: none !important;
+ }
+*/
+
+
+
+
+.nav-primary .nav-items > li > a {
+border: solid transparent;
+border-width: 0 1px;
+padding: 0 20px;
+}
+
+.nav-items li a {
+text-decoration: none;
+}
+
+.galleryItem-restricted-height-on .gallery-icon{
+	height: 130px;
+}
+
+@media (min-width: 960px) {
+	.gallery .span2 {width: 14.89%;}
+	.gallery .span3 {width: 23.4%;}
+	.gallery .span4 {width: 31.9%}
+	.gallery .span6 {width: 48.9%;}
+}
+
+@media (min-width: 620px) and (max-width: 959px) {
+	.gallery .span3 {width: 22.58%}
+	.gallery .span4 {width: 31.17%}
+	.gallery .span6 {width: 48.35%;}
+}
+
+@media (min-width: 1px) and (max-width: 619px) {
+	 
+	.gallery .span2,.gallery .span4{width:28.88%;}
+	.gallery .span3 {width: 19.99%;}
+	.gallery .span6 {width: 46.6%;}
+	.gallery .span2:nth-of-type(3n+4){ margin-left: 0px; }
+	.layout-size--large .gallery .span2, .layout-size--large .gallery .span3, .layout-size--large .gallery .span4, .layout-size--large .gallery .span5, .layout-size--large .gallery .span6 {width:99.99999999% !important; margin-left:0px;}
+	
+		.galleryItem-restricted-height-on .gallery-icon{
+			height: 90px;
+		}
+	
+	.layout-size--large .galleryItem-restricted-height-on .gallery-icon,
+	.layout-size--large .gallery-item img{
+		height:300px;
+	}
+	
+ 
+/*
+.single .layout-btn-large,
+.single .layout-btn-small{
+ 	display: inline-block !important;
+ }
+}
+*/
+/* marcus thumb title fix------------------------------------------------------------------*/

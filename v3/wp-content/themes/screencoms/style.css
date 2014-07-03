@@ -1,0 +1,103 @@
+/*
+Theme Name: ScreenComs
+Theme URI: http://screencoms.com/
+Author: Richard Max
+Author URI: http://www.ricmax.com
+Description: An extremly powerful, flexible dashboard-orientated theme that aggregates content from leading social networks including Twitter, YouTube, Spotify, Soundcloud, Instapaper and Delicious and then displays it in a variety of customisable ways. Minimal WordPress theme brought to you by <a href="http://www.icypixels.com" title="Icy Pixels WordPress Themes">Icy Pixels</a> (<a href="http://twitter.com/theicypixels/">Twitter</a> | <a href="https://www.facebook.com/pages/Icy-Pixels/170508899756996">Facebook</a>). Make sure you check out the included documentation and if any issues arise, we offer quality <a href="http://icypixels.ticksy.com/" title="Support">theme support</a>. 
+Version: 0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:  black, white, light, dark, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, full-width-template, theme-options, photoblogging, buddypress, flexible-width, custom-header, custom-menu, custom-background, custom-colors, featured-images, post-formats, sticky-post
+
+*/
+
+/* main */
+html{overflow: visible !important; }
+body{overflow-x:hidden}
+
+.container {/*
+	margin-top:5px;
+	padding-left:10px;
+	padding-right:10px;*/
+}
+
+.align-left {
+	float: left;
+}
+
+.align-right {
+	float: right; 
+}
+
+.no-span-margin{
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+
+/* HEADER -------------------------------------------------- */
+
+#header{margin-left: 0px; margin-right: 0px;}
+
+.headercontent {
+	margin-left:0px; /*
+	margin-right:-5px;
+	*/
+}
+
+
+
+/* FOOTER --------------------------------------------------- */
+.footer{ margin-bottom:20px; }
+.footer-wrap{min-height:60px; padding-top:20px;/* padding-top:6px; padding-left:10px; padding-right:10px; */}
+.footer .external-links a{width:50px;}
+/* CONTENT -------------------------------------------------- */
+.content {
+
+	margin-left:-10px;
+	margin-right:-10px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+
+/* USER PROFILE ------------------------------------------------------ */
+.user-profile {
+	padding: 0 0 20px 0;
+}
+
+.user-profile .user-info {
+	padding: 10px 0;
+}
+
+.user-profile .avatar {
+	display: block;
+	margin: -25px 0 0 -25px;
+}
+
+
+/* Dashboard --------------------------------------------------------------------- */
+
+.widget {
+	margin-bottom: 20px;
+	background: lightgray;
+}
+
+#post-map {
+	margin: 1% auto;
+	height: 600px;
+	width: 98%
+}
+
+/* extra ------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* fixes google maps zoom images etc in bootstrap 2 */
+.gmnoprint img {
+  max-width: none !important; 
+}
+
+

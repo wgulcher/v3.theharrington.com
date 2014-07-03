@@ -1,0 +1,20 @@
+.view-mode--hovered{}
+
+.view-mode--hovered .article-popup-container .hentry{
+
+}
+
+
+
+.post-thumb-wrap-hovered{
+	height: 220px;
+	width:220px;
+	background-repeat:no-repeat;
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-size:100%; /* css fallback - fits widths*/
+	-webkit-background-size: contain;
+	   -moz-background-size: contain;
+		 -o-background-size: contain;
+			background-size: contain;
+}
