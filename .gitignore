@@ -15,7 +15,7 @@ local.properties
 .classpath
 .settings/
 .loadpath
-v3/wp-admin/
+
 v3/wp-includes/
 
 v3/wp-content/_notes/
